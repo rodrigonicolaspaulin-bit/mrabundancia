@@ -1,0 +1,516 @@
+SOP OFICIAL
+AUTOMATIZACIONES DE INSTAGRAM
+Y FLUJO DE SETEO
+Mr. Abundancia | La Sociedad del Dinero
+Versión 8 · Octubre 2026 · Actualización de la v7 (agosto 2026) basada en métricas de septiembre
+<<TABLE>>
+OBJETIVO
+Convertir interacciones de Instagram en conversaciones calificadas. / El sistema debe identificar empresarios activos, activar respuesta, entregar valor y abrir el seteo humano en el momento correcto.
+<<END TABLE>>
+El objetivo de la v7 se mantiene. La v8 no cambia el proceso: corrige los dos puntos donde las métricas muestran que se pierde dinero.
+[Ttulo1] Cómo leer esta versión
+La v8 conserva las 17 secciones de la v7, con los mismos números y en el mismo orden. Cada sección y cada mensaje lleva una etiqueta:
+  SIN CAMBIOS    Se usa igual que en la v7. No hay que tocar nada en la herramienta.
+  AJUSTADO EN V8    Existe en la v7 pero cambia. Se muestra el texto anterior tachado en gris y el nuevo en dorado.
+  NUEVO EN V8    No existía en la v7. Hay que crearlo.
+Debajo de cada cambio hay un recuadro azul, "Por qué cambia", con la métrica que lo justifica. Las secciones 18 a 21 son nuevas y van al final para no mover la numeración de la v7.
+[Ttulo2] Las métricas que motivan la v8 (setter de orgánico, 1 al 27 de septiembre)
+<<TABLE>>
+Etapa | Cantidad | % | Lectura
+Agendas | 29 | 100% | Volumen bajo para 27 días: la gente no responde el primer mensaje.
+Asistieron | 21 | 72,4% | Aceptable. Se puede llevar a 80% con confirmación.
+No asistieron | 3 | 10,3% | Sin protocolo de confirmación en la v7.
+Cancelaron + reagendamiento | 5 | 17,2% | Casi 1 de cada 5 agendas se cae antes de la sesión.
+Cierres | 3 | 14,3% de asistidas | Bajo: llegan a la sesión leads que no pueden invertir.
+<<END TABLE>>
+<<TABLE>>
+DIAGNÓSTICO EN DOS LÍNEAS
+Arriba: el primer mensaje pide escribir y además saca al lead con un link, por eso pocos responden. / Abajo: el flujo pregunta la facturación pero agenda a todos igual, por eso cierra solo 1 de cada 7 que asisten.
+<<END TABLE>>
+[Ttulo2] Mapa de cambios
+<<TABLE>>
+Sección | Estado | Qué cambia | Métrica que ataca
+1. Principios del sistema | AJUSTADO | Se suman 4 principios. | Respuesta + cierre
+2. Arquitectura general | AJUSTADO | Se actualizan las columnas de ESCALAR, EVENTO, SESIÓN y Sin respuesta. | Todas
+3. Palabra ESCALAR | AJUSTADO | Nuevo primer mensaje con botón. El Canal pasa al final. Se agrega el diagnóstico de 3 preguntas. | Respuesta al 1er mensaje
+4. Palabra EVENTO | AJUSTADO | Se agrega una calificación antes de la oferta. Mensajes 1 y 2 sin cambios. | Cierre
+5. Palabra SESIÓN | AJUSTADO | Nuevos rangos de facturación. El bot deja de proponer horarios. | Cierre 14,3%
+6. Nuevo seguidor | AJUSTADO | Nuevo mensaje de bienvenida (regalo o audio), envío con demora, 2 recordatorios y prueba A/B. | Respuesta de seguidores
+7. Rama negocio activo | AJUSTADO | Nuevos rangos. La entrada a seteo depende de la facturación. | Cierre 14,3%
+8. Rama estoy empezando | Sin cambios | — | —
+9. Rama no tengo negocio | Sin cambios | — | —
+10. Seguimiento sin respuesta | AJUSTADO | Mismos mensajes, nuevos tiempos: bot dentro de 24 h, setter después. | Respuesta
+11. Cuando acepta la clase | Sin cambios | — | —
+12. Guía de seteo humano | AJUSTADO | Se agregan tiempo de respuesta, 2 preguntas y los criterios de CALIFICADO. | Cierre 14,3%
+13. Reglas operativas | AJUSTADO | Se suman 5 reglas. | Todas
+14. Etiquetas | AJUSTADO | Nuevos rangos de facturación y etiquetas de avance, freno y etapa. | Medición
+15. Mapa nuevo seguidor | AJUSTADO | Nuevos tiempos de seguimiento y ruteo. | Respuesta
+16. Mapa palabras clave | AJUSTADO | Actualizado con los pasos de la v8. | Todas
+17. KPIs | AJUSTADO | Se agregan valor actual, meta y 3 KPIs nuevos. | Medición
+18. Ruteo por facturación | NUEVO | Qué pasa con cada rango. | Cierre 14,3%
+19. Diagnóstico por freno | NUEVO | Los 5 textos que recibe el lead. | Respuesta
+20. Confirmación de la sesión | NUEVO | Secuencia de 4 toques. | Asistencia 72,4%
+21. Plan de implementación | NUEVO | Prueba A/B de 14 días y checklist. | Medición
+<<END TABLE>>
+[Ttulo1] 1. Principios del sistema     AJUSTADO EN V8  
+[Prrafodelista] La automatización abre la conversación. El equipo humano convierte esa respuesta en diagnóstico.
+[Prrafodelista] Cada mensaje debe tener una acción clara.
+[Prrafodelista] Las preguntas deben ser fáciles de responder.
+[Prrafodelista] El tono debe sentirse humano, directo y empresarial.
+[Prrafodelista] Si el lead responde, se detienen los seguimientos automáticos.
+[Prrafodelista] La conversación privada profundiza en sistemas, estructura, situación actual y meta.
+[Prrafodelista] El primer mensaje se responde con un solo toque (botón). Nada de preguntas abiertas en el primer contacto.    NUEVO EN V8  
+[Prrafodelista] Ningún link antes de calificar. Un link es una salida: el Canal y la clase van al final, solo para quien no califica.    NUEVO EN V8  
+[Prrafodelista] La facturación decide la ruta. Nadie con menos de $3K al mes llega a la agenda de los closers.    NUEVO EN V8  
+[Prrafodelista] Humano en 15 minutos. Un lead que termina el diagnóstico está en su punto máximo de interés.    NUEVO EN V8  
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+Los 6 principios de la v7 siguen vigentes. Los 4 nuevos atacan los dos problemas medidos: poca respuesta al primer mensaje y 14,3% de cierre sobre asistidas.
+<<END TABLE>>
+[Ttulo1] 2. Arquitectura general     AJUSTADO EN V8  
+Misma tabla que la v7. Las celdas que cambian están en dorado.
+<<TABLE>>
+Entrada | Primer contacto | Espera | Seguimiento | Salida
+ESCALAR | Botón: "¿Te mando el diagnóstico?" | Toque | Facturación + freno | Ruta según facturación
+EVENTO | ¿Eres dueño? + facturación | Interés | Pago / comprobante | Confirmación
+SESIÓN | Precalificación | Respuesta | Setter (el bot no da horarios) | Sesión (solo +$3K aprobado)
+Nuevo seguidor | Regalo: diagnóstico (5–10 min después del follow) | Toque | Bot +3 h y +20 h | Diagnóstico → ruta
+Sin respuesta | Bot +2 h y +20 h | Hasta 24 h | Setter: audio día 2, mensaje día 4 | Seteo o nutrición
+<<END TABLE>>
+[Ttulo1] 3. Automatización, palabra ESCALAR     AJUSTADO EN V8  
+<<TABLE>>
+DISPARADOR  ·  SIN CAMBIOS
+Cuando una persona comenta o envía la palabra ESCALAR.
+<<END TABLE>>
+[Ttulo2] Respuesta pública al comentario     NUEVO EN V8  
+<<TABLE>>
+V8 · AHORA: RESPUESTA PÚBLICA (rotar las 3)
+A: ¡Te escribí por privado, {{nombre}}! 📩 Si no lo ves, revisa "Solicitudes de mensajes". / B: Listo, te mandé el diagnóstico por DM 🙌 Revisa tus solicitudes si no me sigues. / C: {{nombre}}, te lo envié por mensaje privado 👊
+<<END TABLE>>
+[Ttulo2] Mensaje     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): MENSAJE
+¡Bienvenido, empresario! 🚀 / Te comparto el Canal de Empresarios de Mr. Abundancia, donde hablamos de estructura, sistemas y crecimiento empresarial. / 👉 Únete aquí: https://www.instagram.com/channel/AbaR463UZ3N_Gy-m/ / Y quiero conocerte un poco. ¿A qué se dedica tu negocio y qué vendes actualmente?
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: MENSAJE 1 (versión A, principal)
+Hola {{nombre}} 👋 Soy Mr. Abundancia. Vi tu comentario. / Armé un diagnóstico de 3 preguntas que te dice cuál de los 10 sistemas está frenando tu negocio. Toma 30 segundos. / ¿Te lo mando? / [ Sí, mándamelo ] / Versión B para la prueba A/B (sección 21): "Hola {{nombre}} 👋 Vi tu comentario. Para decirte exactamente cómo escalar tu negocio necesito saber una cosa primero: ¿tu negocio ya está facturando?" [Sí, ya factura] [Estoy empezando]
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+La gente no responde el primer mensaje. El de la v7 tiene tres frenos: pide escribir (pregunta abierta), saca al lead con un link antes de la pregunta y no entrega lo que promete la bio ("te digo cómo"). / Además, cuando alguien comenta una palabra clave, Instagram permite un solo mensaje privado hasta que la persona responda. Si ese mensaje no consigue un toque, la conversación termina ahí. / El Canal de Empresarios no se elimina: pasa al final del flujo para quien no califica (sección 18).
+<<END TABLE>>
+[Ttulo2] Diagnóstico de 3 preguntas     NUEVO EN V8  
+<<TABLE>>
+V8 · AHORA: PREGUNTA 1 DE 3
+Vamos 🔥 Pregunta 1 de 3: ¿tu negocio ya está facturando? / [ Sí, ya factura ]   [ Estoy empezando ]   [ Aún no tengo ] / "Estoy empezando" → sección 8. "Aún no tengo" → sección 9. Igual que en la v7.
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: PREGUNTA 2 DE 3
+¿En qué rango está tu facturación mensual? (en USD) / [ Menos de $3K ]   [ $3K a $10K ]   [ $10K a $30K ]   [ Más de $30K ]
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: PREGUNTA 3 DE 3
+Última: ¿qué es lo que más está frenando tu crecimiento hoy? / [ Conseguir clientes ]   [ Cerrar ventas ]   [ Equipo y procesos ]   [ Todo depende de mí ]   [ Finanzas ]
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: ENTREGA
+Diagnóstico según el freno (sección 19) + mensaje según la facturación (sección 18). Dos mensajes seguidos, con 3 segundos de pausa.
+<<END TABLE>>
+[Ttulo2] Qué pasa después     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): QUÉ PASA DESPUÉS
+Si responde con información de su negocio, Camila o el setter entra manualmente. / Objetivo: identificar situación, problema, meta y si existe encaje para Sesión Estratégica.
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: QUÉ PASA DESPUÉS
+Si factura $3K o más, Camila o el setter entra manualmente en 15 minutos (5 minutos si factura más de $30K), con la facturación y el freno ya etiquetados. / Si factura menos de $3K, recibe la clase y el Canal. No entra a seteo. / Objetivo: identificar situación, problema, meta y si existe encaje para Sesión Estratégica (igual que la v7).
+<<END TABLE>>
+[Ttulo1] 4. Automatización, palabra EVENTO     AJUSTADO EN V8  
+<<TABLE>>
+DISPARADOR  ·  SIN CAMBIOS
+Cuando una persona comenta o envía la palabra EVENTO.
+<<END TABLE>>
+[Ttulo2] Bloque 0 · Calificación     NUEVO EN V8  
+<<TABLE>>
+V8 · AHORA: MENSAJE 0A
+🔥 Te paso toda la info del próximo encuentro. Una pregunta antes, porque el pase VIP es solo para dueños: / ¿Eres dueño o socio de un negocio activo? / [ Sí, soy dueño/socio ]   [ Todavía no ] / "Todavía no" → información de entrada general, sin la oferta VIP 2x1.
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: MENSAJE 0B
+Perfecto. ¿En qué rango factura tu negocio al mes? Así te ubicamos en la mesa correcta de networking. / [ Menos de $3K ]   [ $3K a $10K ]   [ $10K a $30K ]   [ Más de $30K ]
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+La v7 manda el link de pago sin saber si la persona tiene negocio. El Evento es el canal que más ingresos cierra: si el salón se llena de no-dueños, los closers venden a gente que no puede comprar. / Con este bloque, los closers reciben antes del evento la lista de asistentes con su rango de facturación.
+<<END TABLE>>
+[Ttulo2] Bloque 1     SIN CAMBIOS  
+<<TABLE>>
+MENSAJE 1  ·  SIN CAMBIOS
+🔥 Últimos cupos para NEXUS / Por tiempo limitado, tu pase VIP incluye un acompañante GRATIS. / Incluye: ✅ Diagnóstico de negocio ✅ Cursos de tráfico y contenido ✅ Asiento preferencial ✅ Almuerzo ✅ Networking empresarial / Aplica para dueños de negocio o socios. / ¿Quieres reservar tu VIP? / Ajuste menor: usar "Últimos cupos" solo cuando sea cierto.
+<<END TABLE>>
+[Ttulo2] Bloque 2     SIN CAMBIOS  
+<<TABLE>>
+MENSAJE 2  ·  SIN CAMBIOS
+¡Saludos, empresario! 🙌 / Aquí tienes las dos formas de reservar tu experiencia VIP: / 📲 ATH Móvil: 787-225-4948 / 📲 Link de pago: https://socios.lasociedaddeldinero.com/courses/offers/07c45832-ac62-4c5c-92be-8a80e62e4988 / Cuando hagas el pago, envíame el comprobante por aquí y confirmamos tu espacio ✅
+<<END TABLE>>
+[Ttulo1] 5. Automatización, palabra SESIÓN     AJUSTADO EN V8  
+<<TABLE>>
+MENSAJE INICIAL  ·  SIN CAMBIOS
+Infinitas bendiciones 🙌 Soy Camila, parte del equipo de Mr. Abundancia. / Veo que quieres agendar una Sesión Estratégica. / Estas sesiones están enfocadas en dueños de negocio que ya están operando y quieren crecer con más estructura y sistemas. / ¿Tu negocio ya está activo actualmente? / [ Sí, ya está activo ]   [ Estoy empezando ]
+<<END TABLE>>
+[Ttulo2] Si responde "Sí, ya está activo"     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): RANGOS
+Perfecto. Para ubicarte en el punto correcto, ¿en qué rango está tu facturación mensual actual? 👇 / [ Menos de $1,500 USD ]   [ Entre $1,500 y $10,000 USD ]   [ Más de $10,000 USD ]
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: RANGOS
+Perfecto. Para ubicarte en el punto correcto, ¿en qué rango está tu facturación mensual actual? 👇 / [ Menos de $3K ]   [ $3K a $10K ]   [ $10K a $30K ]   [ Más de $30K ] / El texto no cambia. Cambian los botones.
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+Los paquetes cuestan entre $4,997 y $10,997. Con los rangos de la v7, un negocio que factura $2K y uno que factura $9K caen en el mismo grupo, y todo lo que supera $10K queda en un solo bloque, sin distinguir candidatos a Gold de candidatos a Platinum. / Los 4 rangos nuevos permiten rutear cada lead a un destino distinto (sección 18).
+<<END TABLE>>
+[Ttulo2] Siguiente pregunta     SIN CAMBIOS  
+<<TABLE>>
+SIGUIENTE PREGUNTA  ·  SIN CAMBIOS
+¿Qué te gustaría resolver primero en tu negocio? 👇 / [ Conseguir más clientes ]   [ Mejorar ventas ]   [ Organizar procesos y equipo ]   [ Tener más control financiero ]   [ Dejar de depender de mí para todo ] / Verificar el límite de caracteres por botón en la herramienta. Si corta el texto, usar las versiones cortas de la sección 3.
+<<END TABLE>>
+[Ttulo2] Cierre a agenda     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): CIERRE A AGENDA
+Perfecto. Por lo que me cuentas, tiene sentido revisar tu caso con el equipo. / ¿Te funciona mejor mañana en la mañana o en la tarde?
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: CIERRE (según facturación)
++$10K: Perfecto. Por lo que me cuentas, tiene sentido revisar tu caso con el equipo. Te escribo en unos minutos para coordinar el horario. 🙌 / $3K a $10K: Gracias. Voy a revisar tu caso y te escribo hoy mismo. / Menos de $3K: mensaje de nutrición (sección 18). / El bot ya no propone horarios. La agenda la cierra Camila o el setter después de las preguntas de la sección 12.
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+En la v7 cualquier lead que llega al final recibe la pregunta de horario, facture lo que facture. Es una de las razones por las que asisten 21 y cierran 3.
+<<END TABLE>>
+[Ttulo1] 6. Automatización, nuevo seguidor     AJUSTADO EN V8  
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+Llegan muchos seguidores nuevos y casi ninguno responde. El mensaje de la v7 tiene 5 frenos: / 1. Abre como cualquier bot. "Saludos y bendiciones. Gracias por seguirme. Un gusto tenerte por aquí" es la bienvenida que manda cualquier cuenta. El seguidor lo reconoce en la vista previa y no lo abre. / 2. Pide sin dar. Le pide que se clasifique a cambio de "contenido que sí aplique", que no es nada concreto. / 3. Llega en el mismo segundo del follow. Eso delata que es automático. / 4. Tres botones largos. Los textos se cortan en el celular y la tercera opción ("No tengo negocio, quiero aprender") es una salida cómoda. / 5. Audiencia fría. @mr.abundancia tiene ~19 likes por post con 97K seguidores. Un seguidor nuevo tiene poca intención: el mensaje tiene que darle una razón para responder.
+<<END TABLE>>
+[Ttulo2] Mensaje 1     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): MENSAJE 1, INMEDIATO
+Saludos y bendiciones 🙌 / Gracias por seguirme. Un gusto tenerte por aquí. / Quiero conocerte un poco para compartirte contenido que sí aplique a tu momento. / ¿Cuál describe mejor tu situación actual? 👇 / [ Ya tengo negocio activo ]   [ Estoy empezando / aún no facturo ]   [ No tengo negocio, quiero aprender ]
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: MENSAJE 1 · VERSIÓN A · REGALO (5 a 10 minutos después del follow) VAMOS A INICIAR CON ESTO PRIMERA SEMANA DE OCTUBRE PARA EVALUAR COMO CONTESTAN 
+{{nombre}}, gracias por seguirme 🙌 / Te tengo un regalo de bienvenida: un diagnóstico de 30 segundos que te dice cuál de los 10 sistemas está frenando tu negocio. / ¿Te lo mando? / [ Sí, mándamelo ] / Un solo botón. Al tocarlo pasa a la Pregunta 1 de 3 del diagnóstico (sección 3).
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: MENSAJE 1 · VERSIÓN B · AUDIO DE MR. (5 a 10 minutos después del follow)
+🎙️ Audio de 10 a 15 segundos: "Hola, Mr. Abundancia por aquí. Vi que me empezaste a seguir y te quería saludar yo mismo. Te hago una sola pregunta: ¿ya tienes un negocio facturando? Contéstame con el botón de abajo." / Texto debajo del audio: ¿Ya tienes un negocio facturando? 👇 / [ Sí, ya factura ]   [ Todavía no ] / "Sí, ya factura" pasa directo a la Pregunta 2 de 3 (facturación). "Todavía no" va a la Ruta de las secciones 8 y 9 (Canal + contenido). Grabar el audio genérico, sin nombre, con voz natural.
+<<END TABLE>>
+[Ttulo2] Qué cambia y por qué     NUEVO EN V8  
+<<TABLE>>
+Cambio | v7 | v8 | Por qué
+Apertura | "Saludos y bendiciones… Gracias por seguirme…" | Su nombre + un regalo concreto, o la voz de Mr. | La primera línea decide si abre el mensaje.
+Qué recibe | Contenido "que sí aplique" | Un diagnóstico de 30 segundos | Le da una razón para tocar.
+Envío | Inmediato | 5 a 10 minutos después | Se siente personal, no automático.
+Botones | 3 largos, uno es una salida | 1 o 2 cortos | Menos opciones, más toques.
+Destino | Segmentación para contenido | El mismo diagnóstico de ESCALAR | Un solo flujo para calificar y medir.
+<<END TABLE>>
+[Ttulo2] Si no responde     NUEVO EN V8  
+<<TABLE>>
+Momento | Quién | Mensaje
++3 horas | Bot | {{nombre}}, ¿te lo mando? Son 30 segundos y te dice dónde está el freno de tu negocio 👇  [ Sí, mándamelo ]
++30 min si dejó el diagnóstico a mitad | Bot | Te quedaste a una pregunta de tu diagnóstico 👇 (repite los botones pendientes)
++20 horas | Bot | Último mensaje por aquí 🙏 Si tienes un negocio, en 30 segundos te digo qué lo está frenando. ¿Lo hacemos?  [ Sí, dale ]
+Sin respuesta después de +20 h | — | Etiqueta SEG_FRIO. No se le escribe más por DM. La setter NO hace seguimiento manual.
+<<END TABLE>>
+<<TABLE>>
+REGLA PARA PROTEGER EL TIEMPO DE LA SETTER
+Con nuevos seguidores el volumen es alto y la intención es baja. Por eso la setter solo entra cuando el seguidor terminó el diagnóstico y factura $3K o más (sección 18). / El audio del día 2 y el mensaje del día 4 (sección 10) quedan solo para leads de palabras clave (ESCALAR, SESIÓN, EVENTO), que llegan con más intención.
+<<END TABLE>>
+[Ttulo2] Cuando entra la setter y el seguidor no responde     NUEVO EN V8  
+<<TABLE>>
+PRIMER MENSAJE DE LA SETTER + NOTA DE VOZ
+Mensaje (inmediato): Hola {{nombre}}, soy {{setter}}, del equipo de Mr. Abundancia 🙌 Vi tu diagnóstico: facturas entre {{rango}} y lo que más te frena es {{freno}}. Antes de ver tu caso, ¿a qué se dedica tu negocio? / Si no responde en 2 horas: nota de voz de la setter de 15 segundos, con su voz: "{{nombre}}, soy {{setter}} del equipo de Mr. Abundancia. Vi tu diagnóstico y tengo una idea para tu caso. Cuéntame a qué se dedica tu negocio y te la explico." / Si no responde al día siguiente: un último mensaje corto: "{{nombre}}, ¿sigues interesado en resolver {{freno}}? Con un sí o un no me basta." / La nota de voz de una persona real tiene mucha más respuesta que un segundo texto. Nunca repetir preguntas que el seguidor ya respondió con botones.
+<<END TABLE>>
+[Ttulo2] Palanca complementaria: historias con palabra clave     NUEVO EN V8  
+<<TABLE>>
+HISTORIAS 3 VECES POR SEMANA
+Una historia de Mr. Abundancia con una pregunta directa y la instrucción: "Respóndeme DIAGNÓSTICO y te digo qué está frenando tu negocio." / Quien responde una historia ya está viendo el contenido: llega con más intención que un seguidor que solo tocó "Seguir". La palabra DIAGNÓSTICO dispara el mismo flujo, desde la Pregunta 1 de 3. / Etiqueta de origen: IG_HISTORIA. Medir su tasa de diagnóstico completo por separado.
+<<END TABLE>>
+[Ttulo1] 7. Rama, ya tengo negocio activo     AJUSTADO EN V8  
+[Ttulo2] Mensaje 2     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): MENSAJE 2
+Buenísimo 🙌 Quiero entender en qué etapa estás para orientarte mejor. / ¿Cuál es tu facturación mensual actual? 👇 / [ Menos de $1,500 USD ]   [ Entre $1,500 y $10,000 USD ]   [ Más de $10,000 USD ]
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: MENSAJE 2
+Buenísimo 🙌 Quiero entender en qué etapa estás para orientarte mejor. / ¿Cuál es tu facturación mensual actual? 👇 / [ Menos de $3K ]   [ $3K a $10K ]   [ $10K a $30K ]   [ Más de $30K ] / Mismo cambio que en la sección 5.
+<<END TABLE>>
+[Ttulo2] Mensaje 3     SIN CAMBIOS  
+<<TABLE>>
+MENSAJE 3  ·  SIN CAMBIOS
+¿Qué área sientes que hoy está frenando más el crecimiento de tu negocio? 👇 / [ Marketing y clientes ]   [ Ventas ]   [ Procesos y equipo ]   [ Finanzas ]   [ Marca personal ]   [ Todo depende de mí ]
+<<END TABLE>>
+[Ttulo2] Entrada a seteo     AJUSTADO EN V8  
+<<TABLE>>
+V7 · ANTES (SE REEMPLAZA): ENTRADA A SETEO
+A partir de esta respuesta entra el setter. / El setter profundiza en problema, impacto, urgencia, meta y disposición para implementar sistemas.
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: ENTRADA A SETEO
+Primero el lead recibe su diagnóstico (sección 19). / Si factura $3K o más, entra el setter en 15 minutos y profundiza en problema, impacto, urgencia, meta y disposición para implementar sistemas (igual que la v7). / Si factura menos de $3K, pasa a nutrición (sección 18).
+<<END TABLE>>
+[Ttulo1] 8. Rama, estoy empezando o aún no facturo     SIN CAMBIOS  
+Se mantienen el mensaje 2, la pregunta "¿Ya lo estás ofreciendo?" y la ruta de la v7: no enviar a Sesión Estratégica y nutrir con clase, canal o contenido según su etapa.
+[Ttulo1] 9. Rama, no tengo negocio y quiero aprender     SIN CAMBIOS  
+Se mantiene el mensaje de la v7 con el Canal de Empresarios y la invitación a escribir ESCALAR cuando tenga claro qué negocio quiere construir.
+[Ttulo1] 10. Seguimiento automático por falta de respuesta     AJUSTADO EN V8  
+<<TABLE>>
+REGLA GENERAL  ·  SIN CAMBIOS
+Si la persona responde en cualquier punto, se detienen todos los seguimientos automáticos.
+<<END TABLE>>
+[Ttulo2] Nuevos tiempos     AJUSTADO EN V8  
+<<TABLE>>
+v7 · Antes | v8 · Ahora | Quién lo envía | Mensaje
+— | +2 horas | Bot | NUEVO: "{{nombre}}, ¿te lo mando? Son 3 preguntas y 30 segundos 👇" [Sí, mándamelo]
+— | +30 min si dejó el diagnóstico a mitad | Bot | NUEVO: "Te quedaste a una pregunta de tu diagnóstico 👇" (repite los botones pendientes)
+— | +20 horas | Bot | NUEVO: "Te escribo por última vez por aquí 🙏 La mayoría de los empresarios que hacen el diagnóstico descubren que su freno no es el que creían. ¿Lo hacemos?" [Sí, dale]
+24 horas · bot | Día 2 · manual | Setter (Agente humano) | SIN CAMBIOS: intro + audio de Mr. Abundancia de la v7
+72 horas · bot | Día 4 · manual | Setter (Agente humano) | SIN CAMBIOS: "¿Pudiste escucharme? 👀 Tengo una clase…" (versión recomendada de la v7)
+— | Sin respuesta al día 4 | — | NUEVO: etiqueta NUTRICION. No se vuelve a escribir por DM.
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+Instagram permite mensajes automáticos solo dentro de las 24 horas desde la última interacción del lead. Después, solo puede escribir una persona desde la bandeja (etiqueta de Agente humano, hasta 7 días). / Si es así, los seguimientos de 24 h y 72 h de la v7 probablemente no se estaban enviando. Verificar en el historial de la herramienta cuántos salieron realmente. / Los textos y el audio de la v7 se conservan: solo cambia el momento y quién los manda.
+<<END TABLE>>
+[Ttulo2] A las 24 horas → Día 2     SIN CAMBIOS  
+<<TABLE>>
+INTRO AL AUDIO  ·  SIN CAMBIOS
+Empresario, te dejé este audio rápido porque hay algo que veo repetirse mucho en negocios que ya venden, pero todavía dependen demasiado del dueño. 👇
+<<END TABLE>>
+<<TABLE>>
+GUION SUGERIDO PARA EL AUDIO DE MR.  ·  SIN CAMBIOS
+Saludos, empresario. Mr. Abundancia por aquí. / Quería darte la bienvenida personalmente. Muchos negocios no necesitan trabajar más. Necesitan sistemas que les den estructura en marketing, ventas, procesos, finanzas y equipo. / Si ya tienes un negocio, respóndeme este mensaje y cuéntame qué área sientes más desorganizada hoy. Mi equipo va a leer tu respuesta y te orientamos desde ahí. / Duración: 20 a 35 segundos. Natural. Grabar 3 versiones para que el setter las rote.
+<<END TABLE>>
+[Ttulo2] A las 72 horas → Día 4     SIN CAMBIOS  
+<<TABLE>>
+VERSIÓN RECOMENDADA  ·  SIN CAMBIOS
+¿Pudiste escucharme? 👀 / Tengo una clase donde explico cómo estructurar un negocio con sistemas para que deje de depender de ti para todo. / ¿Te la comparto? / La alternativa más directa de la v7 también se mantiene.
+<<END TABLE>>
+[Ttulo1] 11. Cuando acepta la clase     SIN CAMBIOS  
+Se mantiene el mensaje de la v7: antes de enviar la clase, preguntar qué área necesita organizar primero. Ajuste operativo: definir el link de la clase, que en la v7 no figura.
+[Ttulo1] 12. Guía de seteo humano     AJUSTADO EN V8  
+[Ttulo2] Tiempo de primera respuesta     NUEVO EN V8  
+<<TABLE>>
+Rango | Primera respuesta humana | Horario
+Más de $30K | 5 minutos | Lunes a sábado, 9:00 a.m. – 9:00 p.m. (hora de Puerto Rico)
+$3K a $30K | 15 minutos | Lunes a sábado, 9:00 a.m. – 9:00 p.m.
+Fuera de horario | Antes de las 9:30 a.m. del día siguiente | El bot avisa el tiempo de respuesta
+<<END TABLE>>
+[Ttulo2] Pasos del seteo     AJUSTADO EN V8  
+[Prrafodelista] Validar la respuesta del lead en una frase.
+[Prrafodelista] Preguntar qué está pasando hoy en esa área.
+[Prrafodelista] Preguntar desde cuándo ocurre.
+[Prrafodelista] Preguntar qué impacto tiene en ventas, tiempo, equipo o crecimiento.
+[Prrafodelista] Preguntar qué quiere lograr en los próximos 90 días.
+[Prrafodelista] Confirmar facturación si aún no se conoce.
+[Prrafodelista] Preguntar quién decide: "Cuando decides invertir en tu negocio, ¿lo decides tú o lo hablas con un socio o tu pareja?"    NUEVO EN V8  
+[Prrafodelista] Confirmar disposición: "Las sesiones son para empresarios que, si ven sentido, están listos para invertir en implementar. ¿Estás en ese punto?"    NUEVO EN V8  
+[Prrafodelista] Detectar urgencia y disposición para implementar sistemas.
+[Prrafodelista] Si califica (criterios abajo), mover a Sesión Estratégica.
+[Prrafodelista] Si aún no califica, entregar contenido y dejar en nutrición.
+<<TABLE>>
+EJEMPLO DE APERTURA  ·  SIN CAMBIOS
+Te entiendo. Si hoy el área que más te frena son los procesos, cuéntame algo: ¿qué sigue dependiendo directamente de ti para que el negocio funcione?
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: APERTURA CON DATOS DEL DIAGNÓSTICO (para leads de ESCALAR)
+Hola {{nombre}}, soy {{setter}}, del equipo de Mr. Abundancia 🙌 / Vi tu diagnóstico: facturas entre {{rango}} y lo que más te frena es {{freno}}. Antes de ver tu caso, ¿a qué se dedica tu negocio? / Nunca repetir preguntas que el lead ya respondió con botones.
+<<END TABLE>>
+[Ttulo2] Criterios de CALIFICADO     NUEVO EN V8  
+En la v7 la etiqueta CALIFICADO dice "cumple criterios para sesión", pero los criterios no estaban escritos. Desde la v8 se deben cumplir los 6:
+[Prrafodelista] Negocio activo y facturando.
+[Prrafodelista] Facturación de $10K o más al mes. En el rango de $3K a $10K, solo con urgencia alta y disposición de inversión confirmada.
+[Prrafodelista] Es quien decide, o el socio o la pareja se conecta a la sesión.
+[Prrafodelista] El freno se resuelve con alguno de los 10 sistemas.
+[Prrafodelista] Tiene una meta a 90 días con número.
+[Prrafodelista] Acepta que la sesión puede terminar en una propuesta de inversión.
+<<TABLE>>
+V8 · AHORA: CIERRE A AGENDA
+Por lo que me cuentas, tiene mucho sentido que revisemos tu caso en una Sesión Estratégica. Tengo espacio mañana a las 10:00 a.m. o el jueves a las 3:00 p.m. (hora de Puerto Rico). ¿Cuál te queda mejor? / Pásame tu WhatsApp para enviarte la confirmación y el link. 📲 / Siempre dos opciones concretas dentro de las próximas 48 horas. El WhatsApp es necesario para la confirmación (sección 20).
+<<END TABLE>>
+<<TABLE>>
+V8 · AHORA: SI PREGUNTA "¿CUÁNTO CUESTA?"
+Depende de qué sistemas necesita tu negocio, y eso es justo lo que definimos en la sesión. Te adelanto que son programas de inversión seria, pensados para negocios que ya facturan. ¿Tiene sentido para ti que lo veamos? / No dar precios por DM.
+<<END TABLE>>
+<<TABLE>>
+POR QUÉ CAMBIA (MÉTRICA)
+3 cierres de 21 asistidas (14,3%). Sin criterios escritos, cada setter califica distinto y los closers reciben leads que no pueden decidir o no pueden invertir.
+<<END TABLE>>
+[Ttulo1] 13. Reglas operativas     AJUSTADO EN V8  
+[Prrafodelista] Nunca enviar el seguimiento de 24 o 72 horas si la persona ya respondió.
+[Prrafodelista] Nunca enviar dos llamadas a la acción diferentes en el mismo mensaje.
+[Prrafodelista] No preguntar facturación antes de confirmar que existe negocio activo.
+[Prrafodelista] No agendar automáticamente a personas que todavía no tienen negocio.
+[Prrafodelista] Registrar el origen del lead.
+[Prrafodelista] Registrar rango de facturación.
+[Prrafodelista] Registrar área principal de necesidad.
+[Prrafodelista] Registrar etapa: Nutrición, Seteo activo, Calificado, Agendado o No califica.
+[Prrafodelista] El bot nunca propone horarios. La agenda la cierra una persona.    NUEVO EN V8  
+[Prrafodelista] Ningún link antes de terminar la calificación.    NUEVO EN V8  
+[Prrafodelista] Nadie con menos de $3K pasa a la agenda sin aprobación de Dirección Comercial.    NUEVO EN V8  
+[Prrafodelista] No se dan precios por DM.    NUEVO EN V8  
+[Prrafodelista] Todo lead agendado lleva en el CRM: rango, freno, rubro, meta a 90 días y decisor, para que el closer llegue preparado.    NUEVO EN V8  
+[Ttulo1] 14. Etiquetas sugeridas     AJUSTADO EN V8  
+<<TABLE>>
+Etiqueta | Uso | Estado
+IG_NUEVO_SEGUIDOR | Entró por automatización de nuevo seguidor | Sin cambios
+IG_ESCALAR | Entró por palabra ESCALAR | Sin cambios
+IG_EVENTO | Entró por palabra EVENTO | Sin cambios
+IG_SESION | Entró por palabra SESIÓN | Sin cambios
+NEGOCIO_ACTIVO · NEGOCIO_INICIO · SIN_NEGOCIO | Situación del negocio | Sin cambios
+FACT_<1500 · FACT_1500_10000 · FACT_>10000 | Rangos de facturación de la v7 | SE REEMPLAZAN
+FACT_<3K · FACT_3K_10K · FACT_10K_30K · FACT_30K+ | Rangos de facturación de la v8 | NUEVO
+FOLLOWUP_AUDIO_24H · FOLLOWUP_72H | Pasan a FOLLOWUP_AUDIO_D2 · FOLLOWUP_D4 | AJUSTADO
+SETEO_ACTIVO · CALIFICADO · AGENDADO | Etapas de la v7 | Sin cambios
+M1_A · M1_B | Versión del primer mensaje que recibió (prueba A/B) | NUEVO
+M1_TOCO · DIAG_COMPLETO · ABANDONO_P1 · ABANDONO_P2 · ABANDONO_P3 | Dónde se corta el diagnóstico | NUEVO
+FRENO_CLIENTES · FRENO_VENTAS · FRENO_EQUIPO · FRENO_DUENO · FRENO_FINANZAS | Freno principal elegido | NUEVO
+NUTRICION · EVALUACION · NO_CALIFICA · CONFIRMADO · ASISTIO · NO_SHOW · CANCELO · CERRADO | Etapas que faltaban para medir todo el embudo | NUEVO
+SEG_A · SEG_B · SEG_TOCO · SEG_FRIO | Nuevo seguidor: versión recibida (regalo o audio), si tocó y si quedó frío | NUEVO
+IG_HISTORIA | Entró respondiendo DIAGNÓSTICO a una historia | NUEVO
+<<END TABLE>>
+[Ttulo1] 15. Mapa visual, nuevo seguidor     AJUSTADO EN V8  
+Mismo mapa que la v7. Los pasos que cambian están en dorado.
+<<TABLE>>
+Paso | Qué pasa
+NUEVO SEGUIDOR | Esperar 5 a 10 minutos → Mensaje 1 versión A (regalo) o B (audio).
+¿TOCÓ EL BOTÓN? | Sí → diagnóstico de 3 preguntas (sección 3).
+YA FACTURA | Facturación (4 rangos) → freno → diagnóstico → ruta según facturación (sección 18).
+TODAVÍA NO FACTURA | Canal + contenido → nutrición (como las secciones 8 y 9).
+SI NO RESPONDE | Bot: recordatorio a las +3 h y a las +20 h (antes: audio a las 24 h).
+AUDIO DE MR. Y "¿PUDISTE ESCUCHARME?" | Ya no se usan con nuevos seguidores. Quedan solo para leads de palabras clave (sección 10).
+SIN RESPUESTA DESPUÉS DE +20 H | Etiqueta SEG_FRIO. No se le escribe más por DM. Sin seguimiento manual.
+FACTURA $3K O MÁS | Entra la setter en 15 minutos. Si no responde en 2 h: nota de voz de la setter.
+<<END TABLE>>
+[Ttulo1] 16. Mapa visual, palabras clave     AJUSTADO EN V8  
+<<TABLE>>
+ESCALAR | EVENTO | SESIÓN
+Comentario o DM ESCALAR | Comentario o DM EVENTO | Comentario o DM SESIÓN
+Respuesta pública + botón "¿Te mando el diagnóstico?" | ¿Eres dueño o socio? | Confirmar negocio activo
+¿Ya factura? | Facturación | Facturación (4 rangos)
+Facturación (4 rangos) | Oferta VIP 2x1 | Área principal
+Freno principal | ¿Quiere reservar? | Ruta según facturación
+Diagnóstico + ruta según facturación | Pago + comprobante | Setter: preguntas + agenda
+Setter en 15 min o nutrición | Confirmación + rango a los closers | Confirmación (sección 20)
+<<END TABLE>>
+<<TABLE>>
+REGLA DEL MAPA  ·  SIN CAMBIOS
+Cada flujo debe conservar su etiqueta de origen en el CRM. Esto permite medir respuestas, calificación, agendas y ventas por automatización.
+<<END TABLE>>
+[Ttulo1] 17. KPIs para revisar semanalmente     AJUSTADO EN V8  
+Se mantienen los 10 KPIs de la v7. La v8 agrega el valor actual, la meta y 3 KPIs nuevos (en verde). Las metas son iniciales y se ajustan después de la prueba de 14 días.
+<<TABLE>>
+KPI | Actual (1–27 sept) | Meta v8
+Tasa de respuesta al primer mensaje | Sin medir | ≥ 40%
+Tasa de respuesta al audio (día 2) | Sin medir | Medir
+Tasa de reactivación (día 4) | Sin medir | Medir
+Porcentaje de nuevos seguidores con negocio activo | Sin medir | Medir
+Respuesta de nuevos seguidores al mensaje 1 (SEG_TOCO ÷ seguidores nuevos), por versión A y B | Sin medir | ≥ 15%
+Distribución por rango de facturación | Sin medir | ≥ 30% en +$10K
+Porcentaje que entra a seteo | Sin medir | Medir
+Porcentaje calificado | Sin medir | Medir
+Porcentaje agendado | 29 agendas | ≥ 50% de calificados
+Porcentaje de asistencia | 72,4% | ≥ 80%
+Ventas originadas por cada automatización | 3 cierres (14,3%) | ≥ 25% de asistidas
+Diagnóstico completo (DIAG_COMPLETO ÷ M1_TOCO) | — | ≥ 65%
+Tiempo de primera respuesta humana (mediana) | — | ≤ 15 min
+Cancelación + reagenda | 17,2% | ≤ 10%
+<<END TABLE>>
+<<TABLE>>
+PROYECCIÓN CON LAS MISMAS 29 AGENDAS
+Hoy: 29 agendas × 72,4% asistencia × 14,3% cierre = 3 cierres. / Con las metas de la v8: 29 agendas × 80% asistencia × 25% cierre = 6 cierres, sin necesitar más volumen. / Si además el primer mensaje sube las respuestas, entran más agendas calificadas y la proyección crece sobre esa base.
+<<END TABLE>>
+<<TABLE>>
+META DEL SISTEMA  ·  SIN CAMBIOS
+Que Instagram no termine en una interacción. Cada automatización debe mover al usuario hacia una de tres rutas: seteo, nutrición o compra directa.
+<<END TABLE>>
+[Ttulo1] 18. Ruteo por facturación     NUEVO EN V8  
+Responde a la pregunta que la v7 dejaba abierta: qué pasa con cada lead según cuánto factura. Los cortes son una hipótesis inicial y se calibran con la facturación real de los clientes cerrados.
+<<TABLE>>
+Rango | Ruta | Quién actúa | Tiempo | Paquete probable
+Más de $30K | PRIORIDAD | Setter + aviso a Dirección Comercial | 5 min | Platinum Élite
+$10K a $30K | AGENDA | Setter | 15 min | Gold / Platinum
+$3K a $10K | EVALUACIÓN | Setter decide: agenda o Evento | 15 min | Silver (con financiamiento)
+Menos de $3K | NUTRICIÓN | Automático | — | Evento / Academy
+Estoy empezando / sin negocio | Secciones 8 y 9 | Automático | — | —
+<<END TABLE>>
+<<TABLE>>
+MENSAJE · PRIORIDAD Y AGENDA (+$10K)
+Por lo que me contaste, tu caso tiene todo para una Sesión Estratégica con mi equipo: ahí vemos tus números y te decimos qué sistema instalar primero. / {{setter}} de mi equipo te escribe por aquí en los próximos minutos. 🙌 / Fuera de horario: "…te escribe mañana a primera hora, antes de las 9:30 a.m."
+<<END TABLE>>
+<<TABLE>>
+MENSAJE · EVALUACIÓN ($3K a $10K)
+Estás en el punto donde un buen sistema cambia todo: ya vendes, pero todavía no tienes la estructura para crecer sin desgastarte. / {{setter}} de mi equipo va a revisar tu caso y te escribe hoy mismo. / El setter aplica los criterios de la sección 12: si califica → agenda; si no → invitación al próximo Evento.
+<<END TABLE>>
+<<TABLE>>
+MENSAJE · NUTRICIÓN (menos de $3K)
+En la etapa en la que estás, lo que más te va a servir ahora es esta clase: te explico cómo pasar de vender a tener un negocio con estructura 👇 {{link_clase}} / Y te dejo mi Canal de Empresarios, donde comparto esto todas las semanas: https://www.instagram.com/channel/AbaR463UZ3N_Gy-m/ / Cuando pases de $3K al mes, escríbeme ESCALAR y vemos tu caso personalmente.
+<<END TABLE>>
+[Ttulo1] 19. Diagnóstico por freno     NUEVO EN V8  
+Lo que recibe el lead al terminar las 3 preguntas de ESCALAR. Nombra su problema en sus palabras y lo conecta con uno de los 10 sistemas. No vende: muestra que entendimos.
+<<TABLE>>
+CONSEGUIR CLIENTES → SISTEMA 2: MARKETING
+Tu freno está en Marketing. Casi siempre es lo mismo: el negocio vive de referidos o de publicar sin un sistema que traiga prospectos todos los días. Los negocios que escalan tienen una oferta clara y un canal de adquisición que se puede medir. Eso es lo primero que se instala.
+<<END TABLE>>
+<<TABLE>>
+CERRAR VENTAS → SISTEMA 3: VENTAS
+Tu freno está en Ventas. Te llegan interesados, pero muchos se enfrían: no hay un proceso con guion, seguimiento y números. Cuando la venta depende del "feeling" del día, la facturación sube y baja sin control.
+<<END TABLE>>
+<<TABLE>>
+EQUIPO Y PROCESOS → SISTEMAS 5 Y 6
+Tu freno está en Equipo y Procesos. Tienes gente, pero todo pasa por ti para funcionar. Sin procesos escritos, cada persona hace las cosas a su manera y tú terminas apagando fuegos.
+<<END TABLE>>
+<<TABLE>>
+TODO DEPENDE DE MÍ → SISTEMAS 4, 5 Y 6
+Tu freno es el más común entre los empresarios que facturan bien: tú eres el sistema. Si no estás, no se vende, no se decide, no se avanza. Ese techo no se rompe trabajando más horas; se rompe con estructura, equipo y automatización.
+<<END TABLE>>
+<<TABLE>>
+FINANZAS → SISTEMA 7: FINANZAS
+Tu freno está en Finanzas. Facturas, pero no sabes con certeza cuánto ganas, qué producto te deja más margen ni cuánto puedes invertir para crecer. Sin esos números, cada decisión es una apuesta.
+<<END TABLE>>
+[Ttulo1] 20. Confirmación de la sesión     NUEVO EN V8  
+Objetivo: subir la asistencia de 72,4% a 80% y bajar cancelaciones y reagendas de 17,2% a menos de 10%.
+<<TABLE>>
+Momento | Canal | Mensaje
+Al agendar | IG + WhatsApp | Confirmado ✅ {{día}} a las {{hora}} (hora de Puerto Rico). Para aprovecharla al máximo, ten a mano tu facturación de los últimos 3 meses. Respóndeme CONFIRMO para bloquear tu espacio.
+Día anterior | WhatsApp | Video de 20 s de Mr. Abundancia: "Mañana revisamos tu negocio. Llega con tus números y con quien decide contigo."
+2 horas antes | WhatsApp | {{nombre}}, hoy a las {{hora}} es tu Sesión Estratégica. Este es el link: {{link}}. ¿Todo listo?
+10 minutos antes | WhatsApp | Ya te estamos esperando 🙌 {{link}}
+Sin CONFIRMO 3 h antes | Llamada | El setter llama. Si no contesta, ofrece reagendar en el mismo día.
+<<END TABLE>>
+Reagendas: máximo una, con dos opciones dentro de las próximas 48 horas. Una segunda cancelación pasa a NUTRICION.
+[Ttulo1] 21. Plan de implementación     NUEVO EN V8  
+[Ttulo2] Pruebas A/B de ESCALAR y nuevo seguidor (14 días)
+<<TABLE>>
+Fase | Días | Qué se hace
+Implementación | 1 – 2 | Cargar los cambios de este documento. Probar el flujo completo con 3 cuentas internas.
+Prueba | 3 – 16 | ESCALAR reparte 50/50 entre la versión A y la versión B del mensaje 1 (sección 3). Nuevo seguidor reparte 50/50 entre regalo (A) y audio (B) (sección 6). Las dos pruebas corren al mismo tiempo y se miden por separado.
+Decisión | Día 16 | Gana la versión con más DIAG_COMPLETO por cada 100 mensajes enviados (no la que tiene más toques). Mínimo 50 envíos por versión; si no se llega, se extiende 7 días.
+<<END TABLE>>
+[Ttulo2] Checklist: dónde tocar en la herramienta
+☐  Sección 6: Reemplazar el mensaje de nuevo seguidor por las versiones A (regalo) y B (audio) con reparto 50/50 y demora de 5 a 10 minutos. Grabar el audio. Configurar los recordatorios de +3 h y +20 h y la etiqueta SEG_FRIO. Crear la palabra DIAGNÓSTICO para historias.
+☐  Sección 3: Reemplazar el mensaje de ESCALAR por la respuesta pública + mensaje 1 (A y B) y crear las 3 preguntas del diagnóstico.
+☐  Sección 4: Agregar el Bloque 0 de calificación antes del Mensaje 1 de EVENTO.
+☐  Secciones 5 y 7: Cambiar los botones de facturación a los 4 rangos nuevos y reemplazar el cierre a agenda automático.
+☐  Sección 10: Desactivar los envíos automáticos de 24 h y 72 h. Crear los recordatorios de +2 h, +30 min y +20 h. Activar la etiqueta de Agente humano.
+☐  Sección 12: Entrenar al setter en las 2 preguntas nuevas y los 6 criterios de CALIFICADO.
+☐  Sección 14: Crear las etiquetas nuevas y migrar los rangos de facturación.
+☐  Sección 18: Configurar los 3 mensajes de ruteo y la notificación al setter (y a Dirección Comercial para +$30K).
+☐  Sección 19: Cargar los 5 textos de diagnóstico.
+☐  Sección 20: Grabar el video de confirmación y armar la secuencia de WhatsApp.
+☐  Sección 11: Definir y cargar el link de la clase.
+☐  Medición: Sacar del CRM la facturación mensual de los clientes cerrados en julio, agosto y septiembre para calibrar los rangos.

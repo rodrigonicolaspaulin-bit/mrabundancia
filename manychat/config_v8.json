@@ -1,0 +1,40 @@
+{
+  "_comment": "Etiquetas y campos del SOP v8 (seccion 14 + campos necesarios para {{rango}}, {{freno}}, {{setter}}, {{link_clase}} y la seccion 13). Las etiquetas v7 NO se borran: se listan en legacy_tags_keep solo como referencia.",
+  "tags": [
+    "IG_NUEVO_SEGUIDOR", "IG_ESCALAR", "IG_EVENTO", "IG_SESION", "IG_HISTORIA",
+    "NEGOCIO_ACTIVO", "NEGOCIO_INICIO", "SIN_NEGOCIO",
+    "FACT_<3K", "FACT_3K_10K", "FACT_10K_30K", "FACT_30K+",
+    "FOLLOWUP_AUDIO_D2", "FOLLOWUP_D4",
+    "SETEO_ACTIVO", "CALIFICADO", "AGENDADO",
+    "M1_A", "M1_B",
+    "M1_TOCO", "DIAG_COMPLETO", "ABANDONO_P1", "ABANDONO_P2", "ABANDONO_P3",
+    "FRENO_CLIENTES", "FRENO_VENTAS", "FRENO_EQUIPO", "FRENO_DUENO", "FRENO_FINANZAS",
+    "NUTRICION", "EVALUACION", "NO_CALIFICA", "CONFIRMADO", "ASISTIO", "NO_SHOW", "CANCELO", "CERRADO",
+    "SEG_A", "SEG_B", "SEG_TOCO", "SEG_FRIO",
+    "EVENTO_DUENO", "EVENTO_NO_DUENO"
+  ],
+  "legacy_tags_keep": [
+    "FACT_<1500", "FACT_1500_10000", "FACT_>10000",
+    "FOLLOWUP_AUDIO_24H", "FOLLOWUP_72H"
+  ],
+  "custom_fields": [
+    {"caption": "origen", "type": "text", "description": "IG_ESCALAR / IG_EVENTO / IG_SESION / IG_NUEVO_SEGUIDOR / IG_HISTORIA"},
+    {"caption": "fact_rango", "type": "text", "description": "Rango v8 legible, se usa como {{rango}}: 'menos de $3K', '$3K y $10K', '$10K y $30K', 'más de $30K'"},
+    {"caption": "freno", "type": "text", "description": "Freno elegido, se usa como {{freno}}"},
+    {"caption": "diag_paso", "type": "number", "description": "Ultima pregunta del diagnostico respondida (0-3), para detectar abandono"},
+    {"caption": "etapa", "type": "text", "description": "Nutricion / Seteo activo / Calificado / Agendado / No califica (seccion 13)"},
+    {"caption": "setter", "type": "text", "description": "Nombre de la setter asignada, se usa como {{setter}}"},
+    {"caption": "rubro", "type": "text", "description": "A que se dedica el negocio (lo carga la setter)"},
+    {"caption": "meta_90d", "type": "text", "description": "Meta a 90 dias con numero (lo carga la setter)"},
+    {"caption": "decisor", "type": "text", "description": "Quien decide la inversion (lo carga la setter)"},
+    {"caption": "whatsapp", "type": "text", "description": "WhatsApp para la confirmacion (seccion 20)"},
+    {"caption": "sesion_fecha", "type": "text", "description": "{{dia}} de la sesion"},
+    {"caption": "sesion_hora", "type": "text", "description": "{{hora}} de la sesion (hora de Puerto Rico)"},
+    {"caption": "sesion_link", "type": "text", "description": "{{link}} de la sesion"},
+    {"caption": "reagendas", "type": "number", "description": "Cantidad de reagendas (maximo 1, seccion 20)"}
+  ],
+  "bot_fields": [
+    {"name": "link_clase", "type": "text", "value": null, "description": "PENDIENTE: el SOP (seccion 11) indica que el link de la clase no esta definido"},
+    {"name": "link_canal", "type": "text", "value": "https://www.instagram.com/channel/AbaR463UZ3N_Gy-m/", "description": "Canal de Empresarios (texto del SOP)"}
+  ]
+}
